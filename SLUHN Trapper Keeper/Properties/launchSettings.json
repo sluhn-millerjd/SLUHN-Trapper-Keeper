@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "SLUHN_Trapper_Keeper": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
