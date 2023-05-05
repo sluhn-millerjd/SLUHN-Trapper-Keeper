@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Trapper_Keeper_Service": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

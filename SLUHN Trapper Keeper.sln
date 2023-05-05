@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLUHN Trapper Keeper", "SLUHN Trapper Keeper\SLUHN Trapper Keeper.csproj", "{E1B0FBA9-8BD2-487D-9715-38EAAEC92114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLUHN Trapper Keeper", "SLUHN Trapper Keeper\SLUHN Trapper Keeper.csproj", "{E1B0FBA9-8BD2-487D-9715-38EAAEC92114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapper_Keeper_Service", "Trapper_Keeper_Service\Trapper_Keeper_Service.csproj", "{42877482-6DBA-4F8D-9171-AD83CEB3D1D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SNMP_TEST", "..\SNMP_TEST\SNMP_TEST\SNMP_TEST.csproj", "{70689DC6-C44E-4324-9E01-426586468C92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E1B0FBA9-8BD2-487D-9715-38EAAEC92114}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1B0FBA9-8BD2-487D-9715-38EAAEC92114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1B0FBA9-8BD2-487D-9715-38EAAEC92114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42877482-6DBA-4F8D-9171-AD83CEB3D1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42877482-6DBA-4F8D-9171-AD83CEB3D1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42877482-6DBA-4F8D-9171-AD83CEB3D1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42877482-6DBA-4F8D-9171-AD83CEB3D1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70689DC6-C44E-4324-9E01-426586468C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70689DC6-C44E-4324-9E01-426586468C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70689DC6-C44E-4324-9E01-426586468C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70689DC6-C44E-4324-9E01-426586468C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

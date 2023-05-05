@@ -2,16 +2,20 @@ using SLUHN_Trapper_Keeper;
 
 internal class Program
 {
-    private static async Task Main(string[] args)
+    private static void Main(string[] args)
     {
-        IHost host = Host.CreateDefaultBuilder(args)
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
         .UseWindowsService()
-        .ConfigureServices(services =>
+        .ConfigureAppConfiguration((context, config) =>
+        {
+            // Configure the app here.
+        })
+        .ConfigureServices((hostContext, services) =>
         {
             services.AddHostedService<Worker>();
-        })
-        .Build();
-
-            await host.RunAsync();
-    }
+        });
 }
